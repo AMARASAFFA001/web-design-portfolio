@@ -26,3 +26,33 @@
    text-align: center;
    padding: 20px 0;
   }
+
+  header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav ul{
+
+  }
+
+  header nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 16px;
+    text-align: center;
+
+  }
+
+  header nav ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+  }
+
+  header nav  .header-cases{
+    display: none;
+  }
