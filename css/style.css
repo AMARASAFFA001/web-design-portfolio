@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: sans-serif
   }
 
   body{
@@ -35,7 +36,7 @@
   }
 
   header nav ul{
-
+    margin: 0 auto;
   }
 
   header nav ul li{
@@ -55,4 +56,36 @@
 
   header nav  .header-cases{
     display: none;
+  }
+
+  /* index-banner */
+
+  .index-banner{
+    width: 100%; 
+    height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/banner.jpg);
+  }
+
+  .index-banner h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px 8px #111;
+    text-align: center;
+  }
+
+
+  .index-banner h2{
+    font-family: 'Lucida';
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 34px;
+    text-shadow: 2px 2px 8px #111111;
+    text-align: center;
   }
