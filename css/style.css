@@ -180,16 +180,33 @@ header nav .header-cases {
       .index-links div {
         margin: 10px 10px 0;
         height: 230px;
+        float: left;
         background-color: #eae7e7;
       }
 
 
-      .index-boxlink-square{
+      .index-boxlink-squar{
         width: calc(20% - 20px) !important;
       }
 
+      .index-boxlink-rectangle{
+        width: calc(50% - 20px) !important;
+      }
 
-   
+
+      .index-links div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      
+      .index-links div h2 {
+       text-align: center;
+      }
+
+
 }
 
 
@@ -231,4 +248,23 @@ footer ul li a {
   width: 50px;
   display: block;
   margin: 20px;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+  footer {
+  
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .latest-cases {
+    display: block;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 30px;
+  }
 }
