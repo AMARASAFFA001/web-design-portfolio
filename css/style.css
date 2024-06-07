@@ -68,48 +68,7 @@ header nav .header-cases {
   display: none;
 }
 
-/* desktop style */
-
-@media only screen and (min-width: 1000px) {
-  header .header-branch {
-    margin: 31px 0px;
-    text-align: left;
-    padding: 0px 20px 0px 50px;
-    border-right: 3px solid #111;
-  }
-
-  header {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
-  }
-
-  header nav .header-cases {
-    display: block;
-    margin-left: 200px;
-    gap: 50px;
-    padding: 0 60px 0 0;
-  }
-
-  header nav .header-cases a {
-    padding: 10px 20px;
-    border: solid 1px #111;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #111;
-  }
-
-  header nav {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-/* main section style for mobile  */
-
-/* index-banner */
+/* index-banner  style for mobile */
 
 .index-banner {
   width: 100%;
@@ -167,9 +126,115 @@ header nav .header-cases {
   text-transform: uppercase;
 }
 
+
+
+
+/* cases style for mobile */
+
+.cases-links .cases-link{
+  width: 100%;
+  float: left;
+  height: 100px;
+  background-color: #e3e3e3;
+}
+
+
+
+.wrapper-cont{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+}
+
+.cases-links h1{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.cases-links .cases-link p{
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #111;
+  text-transform: uppercase;
+}
+
+/* contact me style for mobile  */
+
+.index-contact{
+  padding: 50px 40px;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #e3e3e3;
+}
+
+.index-contact p{
+font-size: 20px;
+color: #2e2e2e;
+}
+
+.index-contact h2{
+  font-size: 24px;
+  color: #111;
+ margin-bottom: 15px;
+  }
+
+
+
+
+
+
+
+
+
 /* index-links style for desktop */
 
 @media only screen and (min-width: 1000px) {
+
+  header .header-branch {
+    margin: 31px 0px;
+    text-align: left;
+    padding: 0px 20px 0px 50px;
+    border-right: 3px solid #111;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  header nav .header-cases {
+    display: block;
+    margin-left: 200px;
+    gap: 50px;
+    padding: 0 60px 0 0;
+  }
+
+  header nav .header-cases a {
+    padding: 10px 20px;
+    border: solid 1px #111;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
   .wrapper {
     overflow: hidden;
     width: 1000px;
@@ -214,12 +279,10 @@ header nav .header-cases {
   .index-boxlink-rectangle {
     width: calc(50% - 20px) !important;
   }
-}
 
 
 
-
-
+  
 
 /* cases style for desktop */
 
@@ -233,6 +296,7 @@ header nav .header-cases {
 
 
 .wrapper-cont{
+  
   overflow: hidden;
   width: 1000px;
   margin: 30px auto;
@@ -253,43 +317,6 @@ header nav .header-cases {
   color: #111;
   text-transform: uppercase;
 }
-
-
-
-/* cases style for mobile  */
-/* 
-@media only screen and (min-width: 375px){
-  .cases-links .cases-link{
-    width: 100%;
-    height: 130px;
-    
-  }
-  
-  
-  .wrapper-cont{
-    overflow: hidden;
-    width: 100%;
-    text-align: center;
-
-  }
-  
-  .cases-links h1{
-    font-size: 20px;
-    font-weight: 600;
-    color: #111;
-    text-transform: uppercase;
-  }
-  
-  .cases-links .cases-link p{
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
-    color: #111;
-    text-transform: uppercase;
-  }
- 
-} */
-
 
 
 
@@ -315,13 +342,14 @@ color: #2e2e2e;
  margin-bottom: 15px;
   }
 
+
+
+}
+
+
+
   @media only screen and (min-width: 375px){
-    .index-contact{
-      width: 100%;
-      margin: 30px auto 0;
-      text-align: center;
-      background-color: #e3e3e3;
-    }
+   
   }
 
 
